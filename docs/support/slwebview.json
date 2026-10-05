@@ -1,0 +1,128 @@
+{
+ "version":3,
+ "baseUrl":"support/slwebview_files",
+ "homeHid":1,
+ "sections":[
+  {
+   "hid":1,
+   "sid":"Slide_Model",
+   "name":"Slide_Model",
+   "fullname":"Slide_Model",
+   "label":"Slide_Model",
+   "parent":0,
+   "descendantIDs":[
+    2,
+    3,
+    55
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_diagrams_1.json",
+   "sysViewURL":"support/slwebview_files/Slide_Model_p.json"
+  },
+  {
+   "hid":4,
+   "sid":"Slide_Model:125",
+   "name":"ScannerBank (ScannerBank)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)",
+   "label":"ScannerBank (ScannerBank)",
+   "parent":1,
+   "descendantIDs":[
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_diagrams_4.json",
+   "sysViewURL":"support/slwebview_files/ScannerBank_p.json"
+  },
+  {
+   "hid":13,
+   "sid":"Slide_Model:125:6",
+   "name":"Scanner_1 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_1 (GenericScanner)",
+   "label":"Scanner_1 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    17
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_6_diagrams_13.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  },
+  {
+   "hid":20,
+   "sid":"Slide_Model:125:7",
+   "name":"Scanner_2 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_2 (GenericScanner)",
+   "label":"Scanner_2 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    24
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_7_diagrams_20.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  },
+  {
+   "hid":27,
+   "sid":"Slide_Model:125:134",
+   "name":"Scanner_3 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_3 (GenericScanner)",
+   "label":"Scanner_3 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    31
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_134_diagrams_27.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  },
+  {
+   "hid":34,
+   "sid":"Slide_Model:125:9",
+   "name":"Scanner_4 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_4 (GenericScanner)",
+   "label":"Scanner_4 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    38
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_9_diagrams_34.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  },
+  {
+   "hid":41,
+   "sid":"Slide_Model:125:10",
+   "name":"Scanner_5 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_5 (GenericScanner)",
+   "label":"Scanner_5 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    45
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_10_diagrams_41.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  },
+  {
+   "hid":48,
+   "sid":"Slide_Model:125:11",
+   "name":"Scanner_6 (GenericScanner)",
+   "fullname":"Slide_Model/ScannerBank (ScannerBank)/Scanners/Scanner_6 (GenericScanner)",
+   "label":"Scanner_6 (GenericScanner)",
+   "parent":6,
+   "descendantIDs":[
+    52
+   ],
+   "descendantsURL":"support/slwebview_files/Slide_Model_125_11_diagrams_48.json",
+   "sysViewURL":"support/slwebview_files/GenericScanner_p.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false,
+  "notes":false
+ },
+ "iconsUrl":"support/slwebview_files/icon.css",
+ "lod":true
+}

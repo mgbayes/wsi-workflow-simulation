@@ -1,0 +1,23 @@
+.SimulinkModelIcon_icon,
+.BlockIcon_icon,
+.Chart_icon,
+.SubSystemIcon_icon,
+.LineIcon_icon,
+.State_icon,
+.Transition_icon,
+.SubsystemReference_16_icon,
+.eml_icon {
+    background:url('icon.png') no-repeat top left;
+    width:16px; 
+    height:16px; 
+}
+
+.SimulinkModelIcon_icon { background-position: -0px; }
+.BlockIcon_icon { background-position: -16px; }
+.Chart_icon { background-position: -32px; }
+.SubSystemIcon_icon { background-position: -48px; }
+.LineIcon_icon { background-position: -64px; }
+.State_icon { background-position: -80px; }
+.Transition_icon { background-position: -96px; }
+.SubsystemReference_16_icon { background-position: -112px; }
+.eml_icon { background-position: -128px; }
