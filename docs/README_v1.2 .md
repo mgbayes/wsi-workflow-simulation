@@ -1614,37 +1614,55 @@ Version-controlled or archival copies can be maintained separately.
 
 ---
 
-# 25. Suggested Repository Layout
+# 25. Repository Layout
 
-A clean research repository can use:
+The public v1.2 research release keeps the runnable model, validation harness, and
+experiment driver together in the repository root because the current MATLAB
+scripts expect these dependencies to be colocated.
 
 ```text
-Slide_Model/
+wsi-workflow-simulation/
 │
 ├── README.md
+├── LICENSE
+├── .gitignore
 │
-├── model/
-│   ├── Slide_Model.slx
-│   ├── ScannerBank.slx
-│   └── GenericScanner.slx
+├── Slide_Model.slx
+├── ScannerBank.slx
+├── GenericScanner.slx
+├── Loader_Scanner_Model_Multi.slx
+├── he_case_parameters.mat
 │
-├── scripts/
-│   ├── run_loader_scanner_model_multi_stress_v1_2_final_verified.m
-│   ├── run_slide_model_daily_scenarios_v2_scannerbank_v2.m
-│   └── supporting workload/configuration scripts
+├── run_slide_model_daily_scenarios_v2_scannerbank_v2.m
+├── run_loader_scanner_model_multi_stress_v1_2_final_verified.m
+├── export_model_artifacts_v2.m
 │
-├── outputs/
-│   └── daily_scenario_outputs/
+├── results/
+│   └── v1.2-pilot/
+│       ├── README.md
+│       ├── daily_scenario_run_results.csv
+│       ├── daily_scenario_summary.csv
+│       ├── daily_cutoff_curves.csv
+│       ├── workload_realizations.csv
+│       └── expected_hourly_workload_profiles.csv
 │
 └── docs/
+    ├── README_v1.2.md
     ├── HistoArrival_Requirements.md
-    ├── courier_subsystem_documentation.md
-    ├── P480_Rack_Level_Loading_Integration_Notes.md
-    ├── Loader_Scanner_Visit_Batch_Development_Notes.md
-    └── PostScanProcessing_Development_Notes.md
+    ├── index.html
+    ├── .nojekyll
+    ├── diagrams/
+    ├── figures/
+    ├── poster/
+    ├── stylesheets/
+    └── support/
 ```
 
-Generated pilot/production outputs should usually not be committed unless they are intentionally archived for a specific analysis release.
+Generated working directories such as `daily_scenario_outputs/` and
+`model_artifacts/` are not part of the source release. The files under
+`results/v1.2-pilot/`, `docs/figures/`, `docs/diagrams/`, and `docs/poster/`
+are intentionally archived release artifacts supporting reproducibility,
+documentation, and the associated Pathology Visions 2026 presentation.
 
 ---
 
