@@ -1,0 +1,111 @@
+# ============================================
+# MATLAB / Simulink generated files
+# ============================================
+
+# MATLAB autosave / temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB workspace / crash / temp files
+*.mat.tmp
+matlab_crash_dump.*
+java.log
+
+# Simulink cache / generated code
+slprj/
+sccprj/
+*_grt_rtw/
+*_ert_rtw/
+*_rtw/
+codegen/
+
+# Simulink cache files
+*.slxc
+
+# Simulink autosave / backup files
+*.slx.autosave
+*.mdl.autosave
+*.slx.r20*
+*.mdl.r20*
+
+# Simulink project metadata
+*.prj
+*.SimulinkProject
+.resources/
+project/
+DerivedData/
+
+# Generated binaries / MEX files
+*.mex*
+*.dll
+*.so
+*.dylib
+*.exe
+*.obj
+*.o
+*.lib
+
+# ============================================
+# Generated simulation outputs
+# ============================================
+
+# MATLAB figure files
+*.fig
+
+# Generic temporary output folders
+output/
+outputs/
+temp/
+tmp/
+scratch/
+
+# Do NOT ignore the curated pilot results folder
+!results/
+!results/**
+
+# ============================================
+# OS / editor clutter
+# ============================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# ============================================
+# Office / temporary files
+# ============================================
+
+~$*
+*.tmp
+*.temp
+
+# ============================================
+# Archives / local backups
+# ============================================
+
+*.zip
+*.7z
+*.rar
+
+_archive/
+archive/
+backups/
+backup/
+
+# ============================================
+# Optional local development files
+# ============================================
+
+*.bak
+*.old
+*.orig
